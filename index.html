@@ -8,13 +8,21 @@
       content="This is the description of william' portfolio"
     />
     <title>William | Portfolio</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="manifest" href="./manifest.json" />
-    <link rel="manifest" href="./manifest.json" />
+    <link rel="shortcut icon" href="./assets/images/icons/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="./assets/manifest.json" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
+    <link
+      rel="preload"
+      href="./assets/css/style.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+        <noscript>
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      </noscript>
     <video muted autoplay loop>
         <source src="assets/images/background-lights.mp4" type="video/mp4">
     </video>
