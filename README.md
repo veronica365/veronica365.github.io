@@ -49,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://veronica365.github.io/portfolio/)
+- [Live Demo Link](https://veronica365.github.io/portfolio_v2/)
 
 ## 🚀 Project Outline <a name="project-outline"></a>
 
