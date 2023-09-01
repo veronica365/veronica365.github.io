@@ -16,6 +16,8 @@
     <link rel="manifest" href="./assets/manifest.json" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   </head>
   <body class="page">
     <link
@@ -42,17 +44,8 @@
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <link
-      rel="stylesheet"
+      rel="preload"
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
-      crossorigin="anonymous"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
@@ -68,7 +61,6 @@
       <link
         rel="stylesheet"
         href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
-        crossorigin="anonymous"
       />
     </noscript>
 
@@ -198,10 +190,10 @@
       <div
         class="sidebar-header d-flex align-items-center justify-content-between"
       >
-        <img src="./assets/images/logo.png" alt="Logo" />
+        <amp-img src="./assets/webp/logo.webp" alt="Logo" />
         <span class="designation">FullStack Developer</span>
       </div>
-      <img class="me" src="./assets/images/me.jpeg" alt="Me" />
+      <amp-img class="me" src="./assets/webp/me.webp" alt="Me" />
       <h2 class="email">naruth10@gmail.com</h2>
       <h2 class="address">Based in Kampala, Uganda</h2>
       <p class="copyright">Lets connect</p>
@@ -253,10 +245,10 @@
             <div
               class="sidebar-header d-flex align-items-center justify-content-between"
             >
-              <img src="./assets/images/logo.png" alt="Logo" />
+              <amp-img src="./assets/webp/logo.webp" alt="Logo" />
               <span class="designation">FullStack Developer</span>
             </div>
-            <img class="me" src="./assets/images/me.jpeg" alt="Me" />
+            <amp-img class="me" src="./assets/webp/me.webp" alt="Me" />
             <h2 class="email">naruth10@gmail.com</h2>
             <h2 class="address">Based in Kampala, Uganda</h2>
             <p class="copyright">Lets connect</p>
@@ -324,8 +316,8 @@
                   class="go-to-project-btn scroll-to scroll-animation"
                   data-animation="rotate_up"
                 >
-                  <img
-                    src="./assets/images/round-text.png"
+                  <amp-img
+                    src="./assets/webp/round-text.webp"
                     alt="Rounded text"
                   />
                   <i class="las la-arrow-down"></i>
@@ -459,7 +451,7 @@
                   >
                     <div class="skill">
                       <div class="skill-inner">
-                        <img src="assets/images/figma.png" alt="Figma" />
+                        <amp-img src="assets/webp/figma.webp" alt="Figma" />
                       </div>
                       <p class="name">Figma</p>
                     </div>
@@ -470,7 +462,7 @@
                   >
                     <div class="skill">
                       <div class="skill-inner">
-                        <img
+                        <amp-img
                           src="assets/images/svg/ruby-plain.svg"
                           alt="Ruby"
                         />
@@ -484,7 +476,7 @@
                   >
                     <div class="skill">
                       <div class="skill-inner">
-                        <img src="assets/images/svg/js.svg" alt="JavaScript" />
+                        <amp-img src="assets/images/svg/js.svg" alt="JavaScript" />
                       </div>
                       <p class="name">JavaScript</p>
                     </div>
@@ -495,7 +487,7 @@
                   >
                     <div class="skill">
                       <div class="skill-inner">
-                        <img src="assets/images/react.png" alt="React" />
+                        <amp-img src="assets/webp/react.webp" alt="React" />
                       </div>
                       <p class="name">React</p>
                     </div>
@@ -506,7 +498,7 @@
                   >
                     <div class="skill">
                       <div class="skill-inner">
-                        <img src="assets/images/svg/html.svg" alt="HTML" />
+                        <amp-img src="assets/images/svg/html.svg" alt="HTML" />
                       </div>
                       <p class="name">HTML</p>
                     </div>
@@ -517,7 +509,7 @@
                   >
                     <div class="skill">
                       <div class="skill-inner">
-                        <img src="assets/images/svg/css.svg" alt="CSS" />
+                        <amp-img src="assets/images/svg/css.svg" alt="CSS" />
                       </div>
                       <p class="name">CSS</p>
                     </div>
@@ -528,7 +520,7 @@
                   >
                     <div class="skill">
                       <div class="skill-inner">
-                        <img src="./assets/images/remotework.png" alt="Remote" />
+                        <amp-img src="./assets/webp/remotework.webp" alt="Remote" />
                       </div>
                       <p class="name">Remote work</p>
                     </div>
@@ -539,7 +531,7 @@
                   >
                     <div class="skill">
                       <div class="skill-inner">
-                        <img src="./assets/images/collaboration.png" alt="Remote" />
+                        <amp-img src="./assets/webp/collaboration.webp" alt="Remote" />
                       </div>
                       <p class="name">Collaboration</p>
                     </div>
@@ -583,8 +575,8 @@
                           rel="noopener noreferrer"
                           data-lightbox="example-1"
                         >
-                          <img
-                            src="assets/images/cruise-moto.png"
+                          <amp-img
+                            src="assets/webp/cruise-moto.webp"
                             alt="cycle cruiese"
                           />
                         </a>
@@ -665,8 +657,8 @@
                           rel="noopener noreferrer"
                           data-lightbox="example-1"
                         >
-                          <img
-                            src="./assets/images/buddget-buddy.png"
+                          <amp-img
+                            src="./assets/webp/buddget-buddy.webp"
                             alt="Portfolio"
                           />
                         </a>
@@ -749,8 +741,8 @@
                           href="https://boosktore-react.onrender.com"
                           data-lightbox="example-1"
                         >
-                          <img
-                            src="./assets/images/bookstore.png"
+                          <amp-img
+                            src="./assets/webp/bookstore.webp"
                             alt="bookstore"
                           />
                         </a>
@@ -807,8 +799,8 @@
                           href="https://react-math-magicians-nhj4.onrender.com"
                           data-lightbox="example-1"
                         >
-                          <img
-                            src="./assets/images/math-magic.png"
+                          <amp-img
+                            src="./assets/webp/math-magic.webp"
                             alt="Portfolio"
                           />
                         </a>
